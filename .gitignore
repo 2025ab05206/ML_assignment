@@ -1,9 +1,5 @@
 # .gitignore for ML Assignment
 
-# Data files (too large for GitHub)
-data/*.csv
-*.csv
-
 # Python
 __pycache__/
 *.py[cod]
@@ -48,7 +44,7 @@ env/
 .DS_Store
 Thumbs.db
 
-# Model files (if you save trained models)
+# Model files (saved models)
 *.pkl
 *.joblib
 *.h5
@@ -57,7 +53,3 @@ Thumbs.db
 
 # Logs
 *.log
-
-# Output files
-model_comparison_results.csv
-*.png
