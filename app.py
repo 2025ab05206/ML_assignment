@@ -77,7 +77,7 @@ def load_data(uploaded_file=None):
             df = pd.read_csv(uploaded_file, sep=';')
         else:
             
-            data_path = os.path.join('data', 'bank-additional-full.csv')
+            data_path = os.path.join('model', 'bank-additional-full.csv')
             if os.path.exists(data_path):
                 df = pd.read_csv(data_path, sep=';')
             else:
